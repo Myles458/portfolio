@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1723727195,
-    'checksum' => '00e07604ab84006631d507e05038765d',
+    'timestamp' => 1723739669,
+    'checksum' => 'f2ae1d963f71a2f3558613b1568c70ab',
     'files' => [
         'wp-content/themes/g5_helium/custom/config/home_-_particles' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'wp-content/themes/g5_helium/custom/config/home_-_particles/index.yaml',
-                'modified' => 1723726021
+                'modified' => 1723727918
             ],
             'layout' => [
                 'file' => 'wp-content/themes/g5_helium/custom/config/home_-_particles/layout.yaml',
-                'modified' => 1723726021
+                'modified' => 1723727918
             ],
             'page/head' => [
                 'file' => 'wp-content/themes/g5_helium/custom/config/home_-_particles/page/head.yaml',
@@ -37,7 +37,7 @@ return [
         ],
         'index' => [
             'name' => 'home_-_particles',
-            'timestamp' => 1723726021,
+            'timestamp' => 1723727918,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -329,8 +329,9 @@ return [
                 'custom-3686' => [
                     'title' => 'Skills',
                     'attributes' => [
-                        'html' => ' <div class="ut-title"> <h1>Skills</h1>
- </div>'
+                        'html' => '<div class="st-title">
+        <h1>Skills</h1>
+</div>'
                     ]
                 ],
                 'contenttabs-3854' => [
@@ -392,7 +393,7 @@ return [
                 'custom-7590' => [
                     'title' => 'Portfolio',
                     'attributes' => [
-                        'html' => ' <div class="ut-title"> <h1>Portfolio</h1>
+                        'html' => ' <div class="st-title"> <h1>Portfolio</h1>
  </div>'
                     ]
                 ],
