@@ -1,0 +1,202 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1723703102
+layout:
+  navigation: {  }
+  /header/:
+    -
+      - custom-7796
+  /intro/:
+    -
+      - custom-5807
+  /features/:
+    -
+      - custom-7714
+  /utility/:
+    -
+      - custom-3686
+    -
+      - contenttabs-3854
+  /above/:
+    -
+      - custom-7590
+    -
+      - contentcubes-7850
+  /testimonials/:
+    -
+      - custom-7658
+  /expanded/: {  }
+  /container-main/:
+    -
+      -
+        'mainbar 75': {  }
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  header:
+    attributes:
+      boxed: ''
+      class: g-flushed
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  custom-7796:
+    title: Header
+    attributes:
+      html: "<div class=\"con-container\">\n        <div class=\"scroll-container\">\n            <div class=\"a-scroll-content fade-in\" id=\"introText\"> Hi I am </div>\n            <div class=\"scroll-content moving-content\" id=\"scrollText\">\n                Myles Bonnin E. Patungan\n            </div>\n            <div class=\"b-scroll-content slide-up b\" id=\"outroText\"> An aspiring Software Developer </div>\n        </div>\n    </div>"
+  custom-5807:
+    title: Intro
+    attributes:
+      html: "<div class=\"fp-intro\">\n        <h2 class=\"g-title\">Who Am I?</h2>\n        <div class=\"intro-content\">\n            <p>I am a recent graduate of Our Lady of Fatima University - Antipolo, holding a Bachelor's Degree in Information Technology. I am eager to leverage my education to enhance my programming skills and gain practical experience in a dynamic environment. My commitment to continuous learning and adaptability to new technologies will enable me to contribute effectively to organizational goals and support innovation within the team.</p>\n        </div>\n    </div>"
+    block:
+      variations: center
+  custom-7714:
+    title: Experience
+    attributes:
+      html: "<div class=\"exp-container\">\n<div class=\"ut-title\">\n        <h1>Experience</h1>\n    </div>\n    <div class=\"experience\">\n        <div class=\"experience-header\">\n            <div class=\"title\">\n                <h3>Internship (Software Engineer)</h3>\n                <p>Autumn Global Outsourcing Inc.</p>\n            </div>\n            <div class=\"date\">\n                <p>FEB 2024 - MAY 2024</p>\n            </div>\n        </div>\n        <div class=\"experience-details\">\n            <ul>\n                <li>Web Development (WordPress)</li>\n                <li>Designed and Developed Website</li>\n            </ul>\n        </div>\n    </div>\n</div>"
+  custom-3686:
+    title: Skills
+    attributes:
+      html: "<div class=\"st-title\">\n        <h1>Skills</h1>\n</div>"
+  contenttabs-3854:
+    title: 'Content Tabs'
+    attributes:
+      items:
+        -
+          content: "<p> Developed a comprehensive website using HTML, CSS, and JavaScript (JQuery) for the front-end. Implemented backend functionality using PHP, integrating MySQL as the database. Designed and implemented user authentication, product management, and payment integration features. </p>\n<div class=\"g-grid size-100\">\n        <div class=\"g-block\">\n            <h4>Web Development.</h4>\n            <ul>\n                <li>PHP</li>\n                <li>HTML</li>\n                <li>CSS</li>\n                <li>JavaScript</li>\n                <li>WordPress</li>\n            </ul>\n        </div>\n        <div class=\"g-block\">\n            <h4>Databases.</h4>\n            <ul>\n                <li>MySQL</li>\n                <li>Oracle</li>\n                <li>SQL</li>\n            </ul>\n        </div>\n        <div class=\"g-block\">\n            <h4>Programming Languages.</h4>\n            <ul>\n                <li>C Programming</li>\n                <li>Java</li>\n                <li>Python</li>\n            </ul>\n        </div>\n    </div>"
+          title: 'Technical Skills'
+        -
+          content: "<p>Motivated and detail-oriented IT graduate with strong problem-solving skills and a passion for continuous learning. Excellent team player with effective communication abilities.\n</p>\n<h4>Soft Skills.</h4>\n<div class=\"g-grid size-100\">\n    <div class=\"g-block size-50\">\n         <ul>\n                <li>Teachable</li>\n                <li>Creative Thinker</li>\n                <li>Adaptability</li>\n                <li>Collaborative Team Player</li>\n                <li>Strong Interpersonal Skills</li>\n            </ul>\n    </div>\n</div>"
+          title: 'Soft Skills'
+  custom-7590:
+    title: Portfolio
+    attributes:
+      html: " <div class=\"st-title\"> <h1>Portfolio</h1>\n </div>"
+  contentcubes-7850:
+    title: 'Content Cubes'
+    attributes:
+      items:
+        -
+          image: 'gantry-media://2024/08/Thumbnail-3.png'
+          imageposition: left
+          label: 'WordPress Website'
+          title: 'Grey''s Pet Hotel'
+          tags:
+            -
+              icon: 'fa fa-tag'
+              link: '#'
+              target: _self
+              text: 'Graphic Design'
+            -
+              icon: 'fa fa-tag'
+              link: '#'
+              target: _self
+              text: 'Website Creation'
+          link: 'https://greyspethotel.com'
+          linktext: '&rarr;'
+          buttonclass: ''
+          buttontarget: _self
+          name: 'Grey''s Pet Hotel'
+        -
+          image: 'gantry-media://2024/08/Thumbnail-1.png'
+          imageposition: right
+          label: 'WordPress Website'
+          title: 'Website Design# 1'
+          tags:
+            -
+              icon: 'fa fa-tag'
+              link: '#'
+              target: _self
+              text: 'Graphic Design'
+            -
+              icon: 'fa fa-tag'
+              link: '#'
+              target: _self
+              text: 'Website Creation'
+          link: 'http://localhost/portfolio/wp-content/uploads/2024/08/Assignment-3.png'
+          linktext: '&rarr;'
+          buttonclass: ''
+          buttontarget: _self
+          name: 'Web 1'
+        -
+          image: 'gantry-media://2024/08/Thumbnail-2.png'
+          imageposition: left
+          label: 'WordPress Website'
+          title: 'Website Design# 2'
+          tags:
+            -
+              icon: 'fa fa-tag'
+              link: '#'
+              target: _self
+              text: 'Graphic Design'
+            -
+              icon: 'fa fa-tag'
+              link: '#'
+              target: _self
+              text: 'Website Creation'
+          link: 'http://localhost/portfolio/wp-content/uploads/2024/08/Assignment-4.png'
+          linktext: '&rarr;'
+          buttonclass: ''
+          buttontarget: _self
+          name: 'Item 2'
+  custom-7658:
+    title: 'Customer Testimonials'
+    attributes:
+      html: "<div class=\"fp-testimonials\">\n    <blockquote>\n        <p class=\"h3\">\"The end is just the beginning, in hearts that keep on spinning.\"</p>\n        <footer>Myles Bonnin</footer>\n    </blockquote>\n</div>"
+    block:
+      variations: center
